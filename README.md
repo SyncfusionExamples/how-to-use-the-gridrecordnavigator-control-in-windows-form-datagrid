@@ -1,8 +1,8 @@
-# How to use the GridRecordNavigator control in windows form SfDataGrid
-## About the sample
-This example illustrates how to use the GridRecordNavigator control in windows form DataGrid.
+# How to Use the GridRecordNavigator Control in WinForms DataGrid?
 
-By default, SfDataGrid does not support for GridRecordNavigationBar. But we can achieve this by change the selection based on navigation buttons.
+This example illustrates how to use the GridRecordNavigator control in [WinForms DataGrid](https://www.syncfusion.com/winforms-ui-controls/datagrid) (SfDataGrid).
+
+By default, DataGrid does not support for `GridRecordNavigationBar`. But we can achieve this by change the selection based on navigation buttons.
 
 ## Navigate to next row 
 
@@ -50,7 +50,6 @@ private void last_Click(object sender, EventArgs e)
     this.sfDataGrid1.TableControl.UpdateScrollBars();
 
     label1.Text = "Record \t" + lastRowIndex.ToString() + "of" + (this.sfDataGrid1.TableControl.ScrollRows.LineCount - this.sfDataGrid1.TableControl.ScrollRows.HeaderLineCount);
-
 } 
 ```
 
@@ -69,5 +68,5 @@ private void first_Click(object sender, EventArgs e)
     label1.Text = "Record \t" + firstRowIndex.ToString() + "of" + (this.sfDataGrid1.TableControl.ScrollRows.LineCount - this.sfDataGrid1.TableControl.ScrollRows.HeaderLineCount);
 }
 ```
-## Requirements to run the demo
-Visual Studio 2015 and above versions
+
+![Using GridRecordNavigator in the DataGrid](DataGridWithGridRecordNavigator.png)
