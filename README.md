@@ -69,4 +69,4 @@ private void first_Click(object sender, EventArgs e)
 }
 ```
 
-![Using GridRecordNavigator in the DataGrid](DataGridWithGridRecordNavigator.png)
+![Using GridRecordNavigator in the DataGrid](DataGridWithGridRecordNavigator.gif)
